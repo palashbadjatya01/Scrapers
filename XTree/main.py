@@ -5,4 +5,4 @@ if __name__ == '__main__':
                    , 'https://www.merriam-webster.com/dictionary/learn'
                 ]
     for url in website_url:
-        ScraperJob(url)
+        scrape_data = ScraperJob(url)
